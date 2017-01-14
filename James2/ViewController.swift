@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITextFieldDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? SongCell
-        return cell!cq  Vxy eb  sycqe
+        return cell!
     }
 }
 
