@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2688EE11E2ABF8B00FEE8E1 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2688EE01E2ABF8B00FEE8E1 /* SongCell.swift */; };
 		D2A5F7961E2AB7C400A0F323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F7951E2AB7C400A0F323 /* AppDelegate.swift */; };
 		D2A5F7981E2AB7C400A0F323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F7971E2AB7C400A0F323 /* ViewController.swift */; };
 		D2A5F79B1E2AB7C400A0F323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F7991E2AB7C400A0F323 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2688EE01E2ABF8B00FEE8E1 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 		D2A5F7921E2AB7C400A0F323 /* James2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = James2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F7951E2AB7C400A0F323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2A5F7971E2AB7C400A0F323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D2A5F79C1E2AB7C400A0F323 /* Assets.xcassets */,
 				D2A5F79E1E2AB7C400A0F323 /* LaunchScreen.storyboard */,
 				D2A5F7A11E2AB7C400A0F323 /* Info.plist */,
+				D2688EE01E2ABF8B00FEE8E1 /* SongCell.swift */,
 			);
 			path = James2;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					D2A5F7911E2AB7C300A0F323 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5XL94NV2G5;
 						ProvisioningStyle = Automatic;
 					};
 					D2A5F7A51E2AB7C400A0F323 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A5F7981E2AB7C400A0F323 /* ViewController.swift in Sources */,
+				D2688EE11E2ABF8B00FEE8E1 /* SongCell.swift in Sources */,
 				D2A5F7961E2AB7C400A0F323 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
 				INFOPLIST_FILE = James2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.James2;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XL94NV2G5;
 				INFOPLIST_FILE = James2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.James2;
@@ -505,6 +512,7 @@
 				D2A5F7BC1E2AB7C400A0F323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2A5F7BD1E2AB7C400A0F323 /* Build configuration list for PBXNativeTarget "James2Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +521,7 @@
 				D2A5F7BF1E2AB7C400A0F323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2A5F7C01E2AB7C400A0F323 /* Build configuration list for PBXNativeTarget "James2UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				D2A5F7C21E2AB7C400A0F323 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
